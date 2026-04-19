@@ -142,6 +142,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Jealousy and control can destroy relationships",
                 "Never trust a single narrator — always question the story"
             ]
+        },
+        {
+            id: 'da-vinci-code',
+            title: "The Da Vinci Code",
+            author: "Dan Brown",
+            genre: "Mystery / Thriller / Adventure",
+            pages: 489,
+            rating: 3.9,
+            coverUrl: "da-vinci-code.jpg",
+            coverColor: "linear-gradient(135deg, #78350f, #451a03)", // Brown ancient text aesthetic
+            summary: `
+                <p>The Da Vinci Code is one of the best-selling mystery novels of all time, with over 80 million copies sold worldwide. It is a breathless, fast-paced adventure that combines art history, religion, secret societies, and conspiracy into one unforgettable thriller.</p>
+                <p>The story begins in Paris, late at night. Jacques Sauniere, the elderly curator of the Louvre museum, is murdered inside the museum itself. Before dying, he leaves behind a series of cryptic codes and symbols on his own body and on the floor around him. Harvard professor Robert Langdon, a specialist in religious symbols, is called in to help decode the clues.</p>
+                <p>He is joined by Sophie Neveu, a brilliant French cryptologist and granddaughter of the murdered man. As they begin to decode the messages, they realize they are being framed for the murder — and that the clues point toward one of the greatest secrets in human history, hidden inside the paintings of Leonardo da Vinci himself.</p>
+                <p>Their investigation leads them across Paris, to London, and through ancient churches and castles, as they race against both the police and a mysterious albino monk named Silas who is hunting them on behalf of a powerful religious organization. The secret they are chasing involves the Holy Grail, Mary Magdalene, and a truth about Jesus Christ that a secret society called the Priory of Sion has protected for centuries.</p>
+                <p>Every chapter ends on a cliffhanger, making this one of the most unputdownable books ever written. Brown weaves real history, real art, and real architecture into his fictional thriller so seamlessly that millions of readers visited the Louvre and other locations mentioned in the book.</p>
+            `,
+            keyLessons: [
+                "Question everything — official history is written by the powerful",
+                "Art and symbols carry hidden meanings",
+                "Faith and facts do not always align",
+                "The greatest secrets are often hidden in plain sight",
+                "Knowledge is power — and sometimes dangerous"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

@@ -38,6 +38,7 @@ body {
     padding: 20px 40px;
     box-shadow: var(--shadow-sm);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;

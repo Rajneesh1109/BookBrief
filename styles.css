@@ -13,6 +13,15 @@
     --transition: all 0.3s ease;
 }
 
+[data-theme="dark"] {
+    --bg-color: #111827;
+    --card-bg: #1f2937;
+    --text-main: #f9fafb;
+    --text-muted: #9ca3af;
+    --border-color: #374151;
+    --primary-light: rgba(16, 185, 129, 0.2);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +67,7 @@ body {
 .hero-section {
     padding: 80px 20px 40px;
     text-align: center;
-    background: linear-gradient(135deg, #ffffff 0%, var(--primary-light) 100%);
+    background: linear-gradient(135deg, var(--card-bg) 0%, var(--primary-light) 100%);
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -400,6 +409,67 @@ body {
     background: var(--bg-color);
     color: var(--primary-green);
     padding-left: 25px; /* Creates dynamic sliding feel */
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+}
+.dark-mode-toggle-container:hover {
+    background: transparent;
+    padding-left: 20px;
+    color: var(--text-main);
+}
+.dropdown-divider {
+    border: 0;
+    border-top: 1px solid var(--border-color);
+    margin: 5px 0;
+}
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+.theme-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cbd5e1;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: var(--primary-green);
+}
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round:before {
+    border-radius: 50%;
 }
 
 /* Contact Section */

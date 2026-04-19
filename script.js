@@ -340,10 +340,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
         dropdownItems.forEach(item => {
             item.addEventListener('click', (e) => {
-                const filterValue = e.target.getAttribute('data-filter');
-                renderBooks(filterValue);
-                genreDropdown.classList.remove('show');
+                // Ignore click if it's the dark mode container
+                if (e.currentTarget.classList.contains('dark-mode-toggle-container')) return;
+                
+                const filterValue = e.currentTarget.getAttribute('data-filter');
+                if (filterValue) {
+                    renderBooks(filterValue);
+                    genreDropdown.classList.remove('show');
+                }
             });
+        });
+    }
+
+    // Dark Mode Logic
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const currentTheme = localStorage.getItem('theme');
+
+    if (currentTheme) {
+        document.documentElement.setAttribute('data-theme', currentTheme);
+        if (currentTheme === 'dark') {
+            darkModeToggle.checked = true;
+        }
+    }
+
+    if (darkModeToggle) {
+        darkModeToggle.addEventListener('change', function(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            }
         });
     }
 

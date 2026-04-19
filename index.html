@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BookBrief - Find book summaries and key lessons instantly">
+    <title>BookBrief | AI Book Summaries</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-leaf"></i> BookBrief
+        </div>
+    </header>
+
+    <main class="hero-section">
+        <div class="hero-content">
+            <h1>Discover Books in Minutes.</h1>
+            <p>Get AI-powered summaries, key lessons, and reading time estimates for any book instantly.</p>
+            
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for a book by name or author..." autocomplete="off">
+                <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </div>
+        </div>
+    </main>
+
+    <section id="loadingIndicator" class="loading-container hidden">
+        <div class="spinner"></div>
+        <p>Searching library...</p>
+    </section>
+
+    <section id="resultsSection" class="results-container container hidden">
+        <h2 class="section-title">Search Results</h2>
+        <div id="booksGrid" class="books-grid">
+            <!-- Book cards will be injected here -->
+        </div>
+    </section>
+
+    <!-- Detailed Book Modal -->
+    <div id="bookModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Detailed content injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

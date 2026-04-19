@@ -94,6 +94,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Listen to your heart — it knows what you truly want",
                 "Treasure is often found where you least expect it"
             ]
+        },
+        {
+            id: 'it-ends-with-us',
+            title: "It Ends With Us",
+            author: "Colleen Hoover",
+            genre: "Romance / Contemporary Fiction",
+            pages: 384,
+            rating: 4.1,
+            coverUrl: "it-ends-with-us.jpg",
+            coverColor: "linear-gradient(135deg, #fda4af, #be123c)", // Soft pink/rose aesthetic
+            summary: `
+                <p>It Ends With Us is one of the most emotionally powerful and important romance novels ever written. Colleen Hoover herself has said it was the hardest book she ever wrote, as it is based on the real relationship between her own parents.</p>
+                <p>The story follows Lily Bloom, a young woman who moves to Boston from a small town in Maine after graduating college. She wants to open her own flower shop and start a fresh new life. On the rooftop of a building one night, she meets Ryle Kincaid — a charming, brilliant, and handsome neurosurgeon. Ryle is confident and attractive but claims he never wants a relationship. Despite this, the chemistry between him and Lily is undeniable.</p>
+                <p>As Lily and Ryle slowly fall deeply in love, Lily also shares her old journal with the reader — entries she wrote as a teenager about her first love, a homeless boy named Atlas Corrigan whom she secretly helped and fell in love with. These flashbacks show a pure, gentle first love that shaped who Lily became.</p>
+                <p>Everything seems perfect until Ryle's behavior begins to change. Small moments of anger turn into something more frightening. Lily begins to see a pattern that feels terrifyingly familiar — the same pattern she witnessed between her own parents growing up, where her father was abusive to her mother. She had always judged her mother for staying. Now she understands how complicated love really is.</p>
+                <p>When Atlas suddenly reappears in Lily's life, it forces her to face difficult truths. She must make an impossible choice — one that requires incredible strength and courage.</p>
+            `,
+            keyLessons: [
+                "Love alone is not enough to sustain a relationship",
+                "Recognizing cycles of abuse is the first step to breaking them",
+                "Strength means making hard choices, not just enduring pain",
+                "Your worth is not defined by how much you are willing to suffer",
+                "It ends with us — we have the power to stop generational pain"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

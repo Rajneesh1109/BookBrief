@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Psychological Thriller",
             pages: 325,
             rating: 4.5,
-            coverUrl: "https://covers.openlibrary.org/b/title/the-silent-patient-L.jpg",
+            coverUrl: "silent-patient.jpg",
             coverColor: "linear-gradient(135deg, #0f172a, #334155)", // Thriller dark aesthetic
             summary: `
                 <p>Alicia Berenson, a famous painter, shoots her husband Gabriel five times and then never speaks another word. She is sent to a secure forensic unit called The Grove. Theo Faber, a criminal psychotherapist, is obsessed with her case and fights to become her therapist.</p>
@@ -37,10 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
             card.className = 'book-card';
 
             card.innerHTML = `
-                <div class="book-cover-color" style="background: linear-gradient(to top, rgba(17,24,39,0.9) 0%, rgba(17,24,39,0.1) 100%), url('${book.coverUrl}') center/cover no-repeat;">
-                    <h3 class="book-cover-title">${book.title}</h3>
-                </div>
+                <img src="${book.coverUrl}" class="book-cover-img" alt="${book.title} cover">
                 <div class="book-info">
+                    <h3 class="book-title">${book.title}</h3>
                     <p class="book-author">by ${book.author}</p>
                     
                     <div class="book-meta">

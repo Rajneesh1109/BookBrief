@@ -112,20 +112,19 @@ body {
     border-color: var(--primary-green);
 }
 
-.book-cover-color {
-    height: 220px;
-    display: flex;
-    align-items: flex-end;
-    padding: 25px;
-    position: relative;
-    color: white;
+.book-cover-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 
-.book-cover-title {
-    font-size: 1.8rem;
+.book-title {
+    font-size: 1.5rem;
     font-weight: 800;
-    line-height: 1.2;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    margin-bottom: 5px;
+    line-height: 1.3;
+    color: var(--text-main);
 }
 
 .book-info {

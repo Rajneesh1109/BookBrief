@@ -190,6 +190,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 "The past never truly stays buried",
                 "Women survivors of abuse deserve justice, not silence"
             ]
+        },
+        {
+            id: 'the-housemaid',
+            title: "The Housemaid",
+            author: "Freida McFadden",
+            genre: "Psychological Thriller / Domestic Suspense",
+            pages: 329,
+            rating: 4.3,
+            coverUrl: "housemaid.jpg",
+            coverColor: "linear-gradient(135deg, #27272a, #52525b)", // Grey suspense theme
+            summary: `
+                <p>The Housemaid is a #1 New York Times bestselling psychological thriller that has taken the world by storm, with over 3 million copies sold and a major film adaptation released in 2025. It is the kind of book you start in the morning and cannot put down until midnight.</p>
+                <p>The story follows Millie Calloway, a young woman with a troubled past and a criminal record that makes it nearly impossible for her to find a job. Desperate and homeless, living out of her car, she answers an advertisement for a live-in housemaid position at the beautiful home of Andrew and Nina Winchester on Long Island.</p>
+                <p>At first, the Winchester home seems like a dream — a stunning mansion, a good salary, and a charming employer in Andrew. But Nina, his wife, is cold, controlling, and erratic. She creates messes just to watch Millie clean them up. She tells strange lies about their young daughter Cecelia. She seems to resent Millie deeply, yet keeps her employed.</p>
+                <p>Millie is confined to a tiny room at the top of the house, barely bigger than a closet. She begins to notice things — locked doors, hushed arguments, the way Nina watches her, the way Andrew looks at her with something she cannot quite name. And then there is the attic. She is never allowed in the attic.</p>
+                <p>As Millie digs deeper into the family secrets, she begins to unravel the dark truth about what really goes on behind the Winchesters' perfect front door. Nothing is what it seems — not Nina, not Andrew, not even Millie herself. The book builds to a shocking, jaw-dropping twist that will leave readers completely speechless.</p>
+            `,
+            keyLessons: [
+                "Beautiful homes can hide the ugliest secrets",
+                "Power imbalances create dangerous situations",
+                "Never judge someone by their past alone",
+                "The most dangerous people are those who appear perfect",
+                "Survival sometimes requires extraordinary courage"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

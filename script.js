@@ -118,6 +118,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Your worth is not defined by how much you are willing to suffer",
                 "It ends with us — we have the power to stop generational pain"
             ]
+        },
+        {
+            id: 'gone-girl',
+            title: "Gone Girl",
+            author: "Gillian Flynn",
+            genre: "Psychological Thriller / Mystery",
+            pages: 422,
+            rating: 4.1,
+            coverUrl: "gone-girl.jpg",
+            coverColor: "linear-gradient(135deg, #1e293b, #0f172a)", // Dark blue thriller theme
+            summary: `
+                <p>Gone Girl is one of the most gripping and shocking psychological thrillers ever written. The story is told from two alternating perspectives — Nick Dunne and his wife Amy Dunne — and from the very first chapter, the reader is never quite sure who is telling the truth.</p>
+                <p>On the morning of their fifth wedding anniversary, Nick comes home to find the front door open, furniture overturned, and Amy completely missing. The police are called, and what begins as a missing person investigation quickly turns into something far darker. The media becomes obsessed with the case, and Nick — awkward, secretive, and unable to display the right emotions — quickly becomes the prime suspect in his own wife's disappearance.</p>
+                <p>As the investigation unfolds, Amy's diary entries are shared with the reader. Through them, we see a picture of a once-perfect marriage that slowly began to crack after the couple lost their jobs in New York and moved to Nick's small hometown in Missouri. Amy comes across as charming, intelligent, and deeply in love — but increasingly afraid of her husband.</p>
+                <p>But nothing in this book is what it seems. As secrets begin to surface — Nick's affairs, his lies, Amy's obsessive personality — the story takes a stunning turn that completely shatters everything the reader believed. The twist in Gone Girl is one of the most jaw-dropping moments in modern thriller fiction. It forces the reader to go back and reread every chapter with completely new eyes.</p>
+                <p>The book explores dark themes: the performance of marriage, how people construct public versions of themselves, media manipulation, and the terrifying lengths some people will go to in order to win.</p>
+            `,
+            keyLessons: [
+                "People are never truly what they appear to be",
+                "Marriage can become a battlefield of manipulation",
+                "The media shapes public perception of truth",
+                "Jealousy and control can destroy relationships",
+                "Never trust a single narrator — always question the story"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

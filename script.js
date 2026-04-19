@@ -166,6 +166,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 "The greatest secrets are often hidden in plain sight",
                 "Knowledge is power — and sometimes dangerous"
             ]
+        },
+        {
+            id: 'dragon-tattoo',
+            title: "The Girl with the Dragon Tattoo",
+            author: "Stieg Larsson",
+            genre: "Crime / Psychological Thriller",
+            pages: 590,
+            rating: 4.2,
+            coverUrl: "dragon-tattoo.jpg",
+            coverColor: "linear-gradient(135deg, #09090b, #3f3f46)", // Very dark steel vibe
+            summary: `
+                <p>The Girl with the Dragon Tattoo is a masterpiece of Scandinavian crime fiction, originally published in Swedish and translated into over 40 languages. It is the first book in the Millennium series, and it introduces one of the most iconic characters in modern thriller fiction — Lisbeth Salander.</p>
+                <p>The story has two main threads that gradually come together. The first follows Mikael Blomkvist, a crusading financial journalist who has just lost a libel case and is facing prison time. He is hired by Henrik Vanger, the elderly patriarch of one of Sweden's most powerful and dysfunctional families, to investigate the disappearance of his niece Harriet Vanger — a case that is over 40 years old.</p>
+                <p>The second thread follows Lisbeth Salander, a 24-year-old genius hacker with a troubled past, photographic memory, and a dragon tattoo on her back. She is antisocial, brilliant, and deeply distrustful of authority — for very good reasons that are slowly revealed throughout the book. She becomes Mikael's research partner, and together they begin to uncover something far darker than a simple disappearance.</p>
+                <p>As Mikael and Lisbeth dig deeper into the Vanger family history, they discover a trail of violence, abuse, and murder that spans decades. The Vanger family is full of dark secrets — Nazi sympathizers, financial crimes, and a serial killer operating within the family itself.</p>
+                <p>The book is long and detailed, but every page builds the tension. Stieg Larsson wrote it with a deep anger about violence against women — a theme that runs throughout the entire trilogy. The Swedish title actually translates to "Men Who Hate Women," which gives a clear signal about what the book is truly about.</p>
+            `,
+            keyLessons: [
+                "Corruption and abuse thrive when protected by power and silence",
+                "Justice does not always come from the legal system",
+                "Strength comes in unexpected forms",
+                "The past never truly stays buried",
+                "Women survivors of abuse deserve justice, not silence"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

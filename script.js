@@ -70,6 +70,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Identity drives long-term habit change",
                 "The 2-minute rule: start any habit in under 2 minutes"
             ]
+        },
+        {
+            id: 'the-alchemist',
+            title: "The Alchemist",
+            author: "Paulo Coelho",
+            genre: "Fiction / Inspirational / Philosophy",
+            pages: 182,
+            rating: 4.0,
+            coverUrl: "alchemist.jpg",
+            coverColor: "linear-gradient(135deg, #fcd34d, #b45309)", // Sand/gold aesthetic
+            summary: `
+                <p>The Alchemist is one of the most beloved novels in the world, translated into over 65 languages and selling more than 150 million copies. It is the story of Santiago, a young Andalusian shepherd boy from Spain who has a recurring dream about a treasure hidden near the Egyptian Pyramids.</p>
+                <p>Santiago consults a fortune teller and then meets a mysterious old king named Melchizedek who tells him about his Personal Legend — the thing a person has always wanted to accomplish in life. The king urges him to follow his dream and pursue his treasure. Santiago sells his sheep and begins his journey from Spain to Africa.</p>
+                <p>In Africa, Santiago is robbed immediately and left with nothing. He starts working for a crystal merchant and stays for almost a year, learning important life lessons about patience, work, and persistence. His presence transforms the merchant's business. Eventually Santiago joins a caravan crossing the Sahara Desert toward Egypt.</p>
+                <p>During the journey, he falls in love with a woman named Fatima and meets an Englishman who is searching for an alchemist. Santiago eventually finds the mysterious alchemist who teaches him the most important lesson of all — to listen to his heart and read the Soul of the World. The alchemist tells him that when you want something with all your heart, the entire universe conspires to help you achieve it.</p>
+                <p>After many trials and dangers, Santiago finally reaches the Pyramids — only to discover that the real treasure was back where his journey began. The treasure was never about gold. It was about the journey itself, the person he became, and the wisdom he gained.</p>
+            `,
+            keyLessons: [
+                "Follow your Personal Legend — your true purpose in life",
+                "The universe helps those who truly pursue their dreams",
+                "Every journey teaches you more than the destination",
+                "Listen to your heart — it knows what you truly want",
+                "Treasure is often found where you least expect it"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

@@ -43,6 +43,33 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Realise someone's worth before losing them",
                 "Moving on is painful but necessary"
             ]
+        },
+        {
+            id: 'atomic-habits',
+            title: "Atomic Habits",
+            author: "James Clear",
+            genre: "Self Help / Personal Development",
+            pages: 320,
+            rating: 4.3,
+            coverUrl: "atomic-habits.jpg",
+            coverColor: "linear-gradient(135deg, #fbbf24, #d97706)", // Yellow/orange aesthetic
+            summary: `
+                <p>Atomic Habits is one of the most practical and powerful books ever written on the science of building good habits and breaking bad ones. James Clear presents a simple yet revolutionary framework called the Four Laws of Behavior Change. The core idea of the book is that you do not rise to the level of your goals — you fall to the level of your systems. Small habits, done consistently, compound into remarkable results over time.</p>
+                <p>The book begins with Clear's own story — a baseball player who suffered a serious injury and rebuilt himself through tiny daily improvements. This personal story sets the tone: transformation is not about massive overnight change but about getting 1% better every day.</p>
+                <p>Clear introduces the Habit Loop — every habit has four parts: Cue, Craving, Response, and Reward. Understanding this loop is the foundation of changing any behavior. He then builds on this with his Four Laws:</p>
+                <p>Law 1 - Make It Obvious: Design your environment so good habits are visible and easy to start. For example, if you want to read more, keep a book on your pillow.<br>
+                Law 2 - Make It Attractive: Pair habits you need to do with things you enjoy. This increases motivation.<br>
+                Law 3 - Make It Easy: Reduce friction. The easier a habit is to start, the more likely you will do it. Start with just 2 minutes.<br>
+                Law 4 - Make It Satisfying: Reward yourself immediately after completing a habit. The brain remembers what feels good.</p>
+                <p>One of the most powerful concepts is Identity-Based Habits. Instead of saying "I want to run a marathon", say "I am a runner." When your habits match your identity, they become effortless. Clear also introduces Habit Stacking — linking a new habit to an existing one, like "After I brush my teeth, I will meditate for 2 minutes."</p>
+            `,
+            keyLessons: [
+                "Small changes compound into huge results over time",
+                "Focus on systems, not goals",
+                "Your environment shapes your behavior more than your willpower",
+                "Identity drives long-term habit change",
+                "The 2-minute rule: start any habit in under 2 minutes"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

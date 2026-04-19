@@ -219,10 +219,15 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     // Function to render books from the array to the Grid
-    function renderBooks() {
+    function renderBooks(filter = 'All Books') {
         booksGrid.innerHTML = ''; // Ensure the grid is empty first
 
-        booksDatabase.forEach(book => {
+        const filteredBooks = booksDatabase.filter(book => {
+            if (filter === 'All Books') return true;
+            return book.genre.toLowerCase().includes(filter.toLowerCase());
+        });
+
+        filteredBooks.forEach(book => {
             const card = document.createElement('div');
             card.className = 'book-card';
 
@@ -315,6 +320,32 @@ document.addEventListener('DOMContentLoaded', () => {
             bookModal.classList.add('hidden');
         }
     });
+
+    // Dropdown Logic
+    const menuBtn = document.getElementById('menuBtn');
+    const genreDropdown = document.getElementById('genreDropdown');
+    const dropdownItems = document.querySelectorAll('.dropdown-item');
+
+    if (menuBtn && genreDropdown) {
+        menuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            genreDropdown.classList.toggle('show');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!genreDropdown.contains(e.target) && e.target !== menuBtn) {
+                genreDropdown.classList.remove('show');
+            }
+        });
+
+        dropdownItems.forEach(item => {
+            item.addEventListener('click', (e) => {
+                const filterValue = e.target.getAttribute('data-filter');
+                renderBooks(filterValue);
+                genreDropdown.classList.remove('show');
+            });
+        });
+    }
 
     // Start App
     renderBooks();

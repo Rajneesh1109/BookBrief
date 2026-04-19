@@ -561,6 +561,65 @@ input:checked + .slider:before {
     box-shadow: var(--shadow-md);
 }
 
+.whatsapp-container {
+    margin-top: 20px;
+}
+
+.or-divider {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.or-divider::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 44%;
+    height: 1px;
+    background: var(--border-color);
+}
+
+.or-divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 44%;
+    height: 1px;
+    background: var(--border-color);
+}
+
+.whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 16px;
+    background: #25D366;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+    font-family: inherit;
+    gap: 10px;
+}
+
+.whatsapp-btn:hover {
+    background: #1da851; /* Darker WA Green */
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    color: white;
+}
+
 /* Footer */
 .footer {
     text-align: center;

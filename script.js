@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Romance / Contemporary Fiction",
             pages: 230,
             rating: 3.6,
-            coverUrl: "stranger-again.jpg",
+            coverUrl: "stranger-again.png",
             coverColor: "linear-gradient(135deg, #9f1239, #fb7185)", // Romance pink aesthetic
             summary: `
                 <p>A story of three college friends - Dev, Avantika, and Tanishka set during the pandemic era when everything was online. It all started with a simple 'Hi' in a college group chat.</p>

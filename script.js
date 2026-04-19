@@ -24,6 +24,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Past trauma shapes our present actions",
                 "Nothing is as it seems"
             ]
+        },
+        {
+            id: 'can-we-stranger-again',
+            title: "Can We Stranger Again",
+            author: "Anjali Choudhary",
+            genre: "Romance / Fiction",
+            pages: 280,
+            rating: 4.2,
+            coverUrl: "stranger-again.jpg",
+            coverColor: "linear-gradient(135deg, #9f1239, #fb7185)", // Romance pink aesthetic
+            summary: `
+                <p>A story about two people who fall in love but circumstances tear them apart. Years later they meet again as strangers, carrying the weight of their past.</p>
+                <p>The story explores whether love can survive time, distance, and heartbreak, or whether some relationships are better left as memories.</p>
+            `,
+            keyLessons: [
+                "Some people come into our lives to teach us lessons",
+                "Moving on doesn't mean forgetting",
+                "Second chances are rare but possible"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

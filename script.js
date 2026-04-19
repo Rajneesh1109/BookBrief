@@ -26,22 +26,22 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            id: 'can-we-stranger-again',
-            title: "Can We Stranger Again",
-            author: "Anjali Choudhary",
-            genre: "Romance / Fiction",
-            pages: 280,
-            rating: 4.2,
+            id: 'can-we-be-strangers-again',
+            title: "Can We Be Strangers Again?",
+            author: "Shrijeet Shandilya",
+            genre: "Romance / Contemporary Fiction",
+            pages: 230,
+            rating: 3.6,
             coverUrl: "stranger-again.jpg",
             coverColor: "linear-gradient(135deg, #9f1239, #fb7185)", // Romance pink aesthetic
             summary: `
-                <p>A story about two people who fall in love but circumstances tear them apart. Years later they meet again as strangers, carrying the weight of their past.</p>
-                <p>The story explores whether love can survive time, distance, and heartbreak, or whether some relationships are better left as memories.</p>
+                <p>A story of three college friends - Dev, Avantika, and Tanishka set during the pandemic era when everything was online. It all started with a simple 'Hi' in a college group chat.</p>
+                <p>Dev falls deeply in love but soon faces the pain of heartbreak and betrayal. The story explores the thin line between infatuation and love, and the question - after sharing everything, is it really possible to become strangers again?</p>
             `,
             keyLessons: [
-                "Some people come into our lives to teach us lessons",
-                "Moving on doesn't mean forgetting",
-                "Second chances are rare but possible"
+                "Don't confuse attraction for love",
+                "Realise someone's worth before losing them",
+                "Moving on is painful but necessary"
             ]
         }
         // More books can simply be added as objects here later!

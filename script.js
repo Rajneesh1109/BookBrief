@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Psychological Thriller",
             pages: 325,
             rating: 4.5,
-            coverUrl: "silent-patient.jpg",
+            coverUrl: "images/silent-patient.jpg",
             coverColor: "linear-gradient(135deg, #0f172a, #334155)", // Thriller dark aesthetic
             summary: `
                 <p>The Silent Patient is one of the most celebrated psychological thrillers of the modern era, a debut novel by Alex Michaelides that became an instant #1 New York Times bestseller and sold over 10 million copies worldwide. It is the kind of book that you begin reading in the afternoon and cannot put down until you have finished it at 3am, your heart still racing from the final revelation.</p>
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Romance / Contemporary Fiction",
             pages: 230,
             rating: 3.6,
-            coverUrl: "stranger-again.png",
+            coverUrl: "images/stranger-again.png",
             coverColor: "linear-gradient(135deg, #9f1239, #fb7185)", // Romance pink aesthetic
             summary: `
                 <p>Can We Be Strangers Again? is a deeply emotional debut novel by Shrijeet Shandilya that became a national bestseller in India, resonating profoundly with an entire generation of young readers who grew up during the pandemic era. It is not a loud, dramatic story — it is quiet, intimate, and devastatingly honest. It is the kind of book that feels less like fiction and more like someone reading your own diary back to you.</p>
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Self Help / Personal Development",
             pages: 320,
             rating: 4.3,
-            coverUrl: "atomic-habits.jpg",
+            coverUrl: "images/atomic-habits.jpg",
             coverColor: "linear-gradient(135deg, #fbbf24, #d97706)", // Yellow/orange aesthetic
             summary: `
                 <p>Atomic Habits is one of the most practical and powerful books ever written on the science of building good habits and breaking bad ones. James Clear presents a simple yet revolutionary framework called the Four Laws of Behavior Change. The core idea of the book is that you do not rise to the level of your goals — you fall to the level of your systems. Small habits, done consistently, compound into remarkable results over time.</p>
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Fiction / Inspirational / Philosophy",
             pages: 182,
             rating: 4.0,
-            coverUrl: "alchemist.jpg",
+            coverUrl: "images/alchemist.jpg",
             coverColor: "linear-gradient(135deg, #fcd34d, #b45309)", // Sand/gold aesthetic
             summary: `
                 <p>The Alchemist is one of the most beloved novels in the world, translated into over 65 languages and selling more than 150 million copies. It is the story of Santiago, a young Andalusian shepherd boy from Spain who has a recurring dream about a treasure hidden near the Egyptian Pyramids.</p>
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Romance / Contemporary Fiction",
             pages: 384,
             rating: 4.1,
-            coverUrl: "it-ends-with-us.jpg",
+            coverUrl: "images/it-ends-with-us.jpg",
             coverColor: "linear-gradient(135deg, #fda4af, #be123c)", // Soft pink/rose aesthetic
             summary: `
                 <p>It Ends With Us is one of the most emotionally powerful and important romance novels ever written. Colleen Hoover herself has said it was the hardest book she ever wrote, as it is based on the real relationship between her own parents.</p>
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Psychological Thriller / Mystery",
             pages: 422,
             rating: 4.1,
-            coverUrl: "gone-girl.jpg",
+            coverUrl: "images/gone-girl.jpg",
             coverColor: "linear-gradient(135deg, #1e293b, #0f172a)", // Dark blue thriller theme
             summary: `
                 <p>Gone Girl is one of the most gripping and shocking psychological thrillers ever written. The story is told from two alternating perspectives — Nick Dunne and his wife Amy Dunne — and from the very first chapter, the reader is never quite sure who is telling the truth.</p>
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Mystery / Thriller / Adventure",
             pages: 489,
             rating: 3.9,
-            coverUrl: "da-vinci-code.jpg",
+            coverUrl: "images/da-vinci-code.jpg",
             coverColor: "linear-gradient(135deg, #78350f, #451a03)", // Brown ancient text aesthetic
             summary: `
                 <p>The Da Vinci Code is one of the best-selling mystery novels of all time, with over 80 million copies sold worldwide. It is a breathless, fast-paced adventure that combines art history, religion, secret societies, and conspiracy into one unforgettable thriller.</p>
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Crime / Psychological Thriller",
             pages: 590,
             rating: 4.2,
-            coverUrl: "dragon-tattoo.jpg",
+            coverUrl: "images/dragon-tattoo.jpg",
             coverColor: "linear-gradient(135deg, #09090b, #3f3f46)", // Very dark steel vibe
             summary: `
                 <p>The Girl with the Dragon Tattoo is a masterpiece of Scandinavian crime fiction, originally published in Swedish and translated into over 40 languages. It is the first book in the Millennium series, and it introduces one of the most iconic characters in modern thriller fiction — Lisbeth Salander.</p>
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Psychological Thriller / Domestic Suspense",
             pages: 329,
             rating: 4.3,
-            coverUrl: "housemaid.jpg",
+            coverUrl: "images/housemaid.jpg",
             coverColor: "linear-gradient(135deg, #27272a, #52525b)", // Grey suspense theme
             summary: `
                 <p>The Housemaid is a #1 New York Times bestselling psychological thriller that has taken the world by storm, with over 3 million copies sold and a major film adaptation released in 2025. It is the kind of book you start in the morning and cannot put down until midnight.</p>
@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
             genre: "Psychological Thriller / Suspense",
             pages: 448,
             rating: 4.1,
-            coverUrl: "woman-in-window.jpg",
+            coverUrl: "images/woman-in-window.jpg",
             coverColor: "linear-gradient(135deg, #1e293b, #334155)",
             summary: `
                 <p>The Woman in the Window is a masterpiece of psychological suspense, a #1 New York Times Bestseller that sold millions of copies worldwide and was adapted into a Netflix film starring Amy Adams. It is the kind of book that grabs you from the very first page and does not let go until the shocking final revelation.</p>

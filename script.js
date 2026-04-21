@@ -15,14 +15,26 @@ document.addEventListener('DOMContentLoaded', () => {
             coverUrl: "silent-patient.jpg",
             coverColor: "linear-gradient(135deg, #0f172a, #334155)", // Thriller dark aesthetic
             summary: `
-                <p>Alicia Berenson, a famous painter, shoots her husband Gabriel five times and then never speaks another word. She is sent to a secure forensic unit called The Grove. Theo Faber, a criminal psychotherapist, is obsessed with her case and fights to become her therapist.</p>
-                <p>As Theo digs deeper into Alicia's past, he discovers her diary which reveals the events leading up to the murder. The story builds tension as Theo uncovers secrets about Alicia's childhood trauma, her marriage problems, and a mysterious stranger who visited her.</p>
-                <p>The ending delivers a shocking twist that completely changes everything the reader thought they knew. The killer's true identity and motive are revealed in the final pages in a way that will leave readers speechless.</p>
+                <p>The Silent Patient is one of the most celebrated psychological thrillers of the modern era, a debut novel by Alex Michaelides that became an instant #1 New York Times bestseller and sold over 10 million copies worldwide. It is the kind of book that you begin reading in the afternoon and cannot put down until you have finished it at 3am, your heart still racing from the final revelation.</p>
+                <p>The story opens with a single act of violence that shocks everyone who hears about it. Alicia Berenson — a famous, celebrated painter married to Gabriel, a successful fashion photographer — shoots her husband five times in the face one evening in their beautiful North London home. Then she sits down and never speaks another word. Not to the police. Not to her lawyers. Not to the psychiatrists. Not to anyone. Ever again.</p>
+                <p>Alicia is sent to The Grove — a secure forensic psychiatric unit on the outskirts of London. She becomes a sensation. The press calls her the Silent Patient. Her paintings, particularly one called "Alcestis" — a deeply disturbing self-portrait she painted just days after the murder — sell for enormous sums. The world is obsessed with her. Why did she do it? What drove a seemingly happy, successful, deeply loved woman to commit such a brutal act? And why has she chosen silence as her only response?</p>
+                <p>Enter Theo Faber — a criminal psychotherapist who has been obsessed with Alicia's case since the night of the murder. Theo is brilliant, empathetic, and driven by something deeper than professional ambition — a personal belief that no one is beyond understanding, beyond healing. He fights to get a position at The Grove specifically to become Alicia's therapist. His colleagues warn him — she has never responded to any therapist. She will never speak. She is unreachable. Theo refuses to believe this.</p>
+                <p>As Theo begins working with Alicia — communicating through art therapy since she will not speak — he starts to peel back the layers of her life before the murder. He digs into her childhood, her relationship with her controlling, emotionally cold father, the early years of her marriage to Gabriel, her friendships and rivalries, her fears and obsessions. He interviews people from her past — her cousin Paul who was in love with her, her art dealer Jean Felix who exploited her, her neighbor Max who witnessed strange things in the weeks before the murder.</p>
+                <p>Theo also begins reading Alicia's diary — a journal she kept in the weeks leading up to the murder. The diary entries are shared with the reader directly, and they paint a deeply unsettling picture. Alicia was afraid. She believed someone was watching her, following her, entering her home when she was not there. She noticed things being moved. She felt a presence. Gabriel dismissed her fears. But Alicia knew something was terribly wrong.</p>
+                <p>Meanwhile, Theo's own life outside The Grove begins to unravel in ways he does not fully understand. He is convinced his wife Kathy is having an affair. He follows her, obsesses over her, begins behaving in ways that blur the boundary between his professional world and his personal one. The parallel between Theo's crumbling marriage and Alicia's destroyed one feels deeply intentional.</p>
+                <p>The investigation builds to an almost unbearable level of tension. Every chapter reveals something new — a lie someone told, a secret someone kept, a moment in the past that seems insignificant until it suddenly becomes everything. Alex Michaelides is a master at planting information in plain sight that the reader processes but does not fully understand until the final pages.</p>
+                <p>And then comes the ending.</p>
+                <p>The Silent Patient delivers one of the most shocking, perfectly constructed twist endings in the history of the thriller genre. When Alicia finally breaks her silence — when the truth is finally revealed — it recontextualizes every single scene in the book. The reader must mentally race backward through the entire story, reassembling everything with new understanding. It is the kind of ending that makes you immediately want to read the book again from the beginning, knowing what you now know.</p>
+                <p>The novel explores profound themes — the nature of trauma, the violence that silence can do, the way childhood wounds shape adult behavior, the thin line between obsession and love, and the terrifying capacity of human beings for self-deception.</p>
             `,
             keyLessons: [
-                "Silence can speak louder than words",
-                "Past trauma shapes our present actions",
-                "Nothing is as it seems"
+                "Silence is never neutral — it always means something",
+                "Childhood trauma shapes every adult relationship we form",
+                "Obsession disguises itself as love with frightening ease",
+                "The stories we tell ourselves about our lives are rarely the whole truth",
+                "Every person — no matter how broken — deserves to be heard",
+                "The most dangerous lies are the ones we tell ourselves",
+                "Healing is impossible without truth, no matter how painful that truth may be"
             ]
         },
         {
@@ -35,13 +47,28 @@ document.addEventListener('DOMContentLoaded', () => {
             coverUrl: "stranger-again.png",
             coverColor: "linear-gradient(135deg, #9f1239, #fb7185)", // Romance pink aesthetic
             summary: `
-                <p>A story of three college friends - Dev, Avantika, and Tanishka set during the pandemic era when everything was online. It all started with a simple 'Hi' in a college group chat.</p>
-                <p>Dev falls deeply in love but soon faces the pain of heartbreak and betrayal. The story explores the thin line between infatuation and love, and the question - after sharing everything, is it really possible to become strangers again?</p>
+                <p>Can We Be Strangers Again? is a deeply emotional debut novel by Shrijeet Shandilya that became a national bestseller in India, resonating profoundly with an entire generation of young readers who grew up during the pandemic era. It is not a loud, dramatic story — it is quiet, intimate, and devastatingly honest. It is the kind of book that feels less like fiction and more like someone reading your own diary back to you.</p>
+                <p>The story is set during the COVID-19 pandemic — a period that fundamentally changed the way young people experienced friendship, love, and heartbreak. Everything moved online. Classes were online. Friendships were online. And for many people, love began online too — in college group chats, in late-night voice calls, in the space between a text sent and a text received.</p>
+                <p>At the center of the story is Dev — a college student navigating the strange, isolated world of online education. Dev is ordinary in the best possible way — relatable, confused, hopeful, and deeply feeling. When he sends a simple "Hi" in a college group chat, he has no idea that this small, unremarkable moment is about to change everything about him.</p>
+                <p>Through the group chat, Dev meets Avantika — warm, funny, effortlessly charming, the kind of person who makes you feel immediately at ease. What begins as casual online conversation slowly deepens into something neither of them fully planned for. They talk for hours every night. They share things they have never told anyone else. They fall into each other in the particular way that only the strange intimacy of pandemic isolation makes possible — when the whole world has contracted to a screen and the person on the other end of that screen becomes your entire world.</p>
+                <p>But there is also Tanishka — Dev's closest friend, someone who has been there through everything, whose presence in his life is warm and constant and complicated in ways Dev does not allow himself to fully examine. The friendship between Dev and Tanishka runs like a quiet undercurrent throughout the story, always present, always slightly more than Dev admits.</p>
+                <p>As Dev falls deeper in love with Avantika, the story begins to ask harder questions. Is what Dev feels for Avantika love — or is it the intoxication of connection during isolation? Is he confusing the comfort of being known with something deeper? And what does it mean that even as he pursues Avantika, his thoughts keep returning to Tanishka?</p>
+                <p>Shandilya writes about these questions with remarkable honesty and without easy answers. He does not let Dev off the hook, but he also does not judge him. He simply shows us a young man trying to understand his own heart in circumstances that make self-understanding almost impossible.</p>
+                <p>The novel is structured around Dev's four birthdays — each one marking a different stage in his emotional journey, a different version of himself, a different understanding of what he wants and what he is capable of. The birthdays become a kind of measuring stick for how much Dev has — and has not — grown.</p>
+                <p>The relationship between Dev and Avantika develops, deepens, and then begins to fracture in ways that are painfully familiar to anyone who has ever loved someone and watched that love slowly change into something unrecognizable. There is no dramatic betrayal, no single catastrophic moment — just the slow, grinding accumulation of small misunderstandings, unspoken resentments, and the dawning realization that two people who once felt perfectly aligned have somehow drifted to completely different places.</p>
+                <p>And then Avantika asks Dev the question that gives the book its title — the question that is both simple and devastating: Can we be strangers again?</p>
+                <p>It is a question that cuts to the heart of what the book is really about — not just the end of one relationship, but the impossible nature of endings themselves. Once you have truly known someone, once you have shared yourself completely with another person, can you ever really go back? Can the intimacy be undone? Can the knowing be unknowed?</p>
+                <p>Shandilya answers this question with characteristic honesty — not with false comfort, not with a tidy resolution, but with something more valuable: the truth that endings are not failures. That some relationships are meant to change you, not to last forever. That the person you loved, and the person who hurt you, can be the same person. And that moving on does not mean pretending something did not matter.</p>
+                <p>The novel is written in a simple, lyrical style that feels deeply authentic — full of the kind of lines that make you stop and reread them, that feel like they were written specifically about your own life. It has been called "a mirror held up to an entire generation" and that description is exactly right.</p>
             `,
             keyLessons: [
-                "Don't confuse attraction for love",
-                "Realise someone's worth before losing them",
-                "Moving on is painful but necessary"
+                "Do not confuse the intensity of connection during isolation with love",
+                "The thin line between friendship and love is often invisible until it is too late",
+                "Realizing someone's true worth often happens only after you have lost them",
+                "Some relationships are meant to transform you, not to last forever",
+                "Ending something that is not working is not failure — it is courage",
+                "The questions we avoid asking ourselves are always the most important ones",
+                "Pandemic loneliness shaped an entire generation's understanding of intimacy and connection"
             ]
         },
         {

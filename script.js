@@ -458,6 +458,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    // Animated Counters
+    const statNumbers = document.querySelectorAll('.stat-number');
+    statNumbers.forEach(stat => {
+        const target = parseInt(stat.getAttribute('data-target'));
+        const duration = 2000; // 2 seconds
+        const stepTime = Math.abs(Math.floor(duration / target));
+        let current = 0;
+        
+        const timer = setInterval(() => {
+            current += 1;
+            stat.textContent = current;
+            if (current >= target) {
+                stat.textContent = target;
+                clearInterval(timer);
+            }
+        }, stepTime);
+    });
 
     // Start App
     renderBooks();

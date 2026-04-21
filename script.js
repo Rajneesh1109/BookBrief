@@ -291,21 +291,45 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'book-card';
 
-            card.innerHTML = `
-                <img src="${book.coverUrl}" class="book-cover-img" alt="${book.title} cover">
-                <div class="book-info">
-                    <h3 class="book-title">${book.title}</h3>
-                    <p class="book-author">by ${book.author}</p>
-                    
-                    <div class="book-meta">
-                        <span class="meta-tag rating"><i class="fa-solid fa-star"></i> ${book.rating}/5</span>
-                        <span class="meta-tag"><i class="fa-solid fa-layer-group"></i> ${book.genre}</span>
-                        <span class="meta-tag"><i class="fa-regular fa-file-lines"></i> ${book.pages} pages</span>
-                    </div>
+            let badgeBg = '#10b981'; // Default green
+            const g = book.genre.toLowerCase();
+            if (g.includes('crime')) badgeBg = '#c0392b';
+            else if (g.includes('domestic suspense')) badgeBg = '#e67e22';
+            else if (g.includes('suspense')) badgeBg = '#6c3483';
+            else if (g.includes('mystery / thriller / adventure') || g.includes('mystery')) badgeBg = '#8e44ad';
+            else if (g.includes('romance')) badgeBg = '#e91e8c';
+            else if (g.includes('self help')) badgeBg = '#27ae60';
+            else if (g.includes('fiction / inspirational')) badgeBg = '#2980b9';
+            else if (g.includes('psychological thriller')) badgeBg = '#e74c3c';
 
-                    <button class="read-btn" data-id="${book.id}">
-                        <i class="fa-solid fa-book-open"></i> Read Summary
-                    </button>
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = book.summary;
+            const textContent = tempDiv.textContent || tempDiv.innerText || "";
+            const shortSummary = textContent.length > 140 ? textContent.substring(0, 140) + "..." : textContent;
+
+            card.innerHTML = `
+                <div class="book-card-inner">
+                    <div class="book-card-front">
+                        <img src="${book.coverUrl}" class="book-cover-img" alt="${book.title} cover">
+                        <div class="book-info">
+                            <h3 class="book-title">${book.title}</h3>
+                            <p class="book-author">by ${book.author}</p>
+                            <div class="book-meta" style="margin-bottom: 0;">
+                                <span class="meta-tag genre-badge" style="background-color: ${badgeBg}; color: white; border: none; padding: 6px 14px; border-radius: 50px;">
+                                    <i class="fa-solid fa-layer-group" style="color: white; margin-right: 5px;"></i> ${book.genre}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="book-card-back">
+                        <div class="book-info back-info">
+                            <h3 class="book-title">${book.title}</h3>
+                            <p class="short-summary">${shortSummary}</p>
+                            <button class="read-btn" data-id="${book.id}">
+                                <i class="fa-solid fa-book-open"></i> Read Summary
+                            </button>
+                        </div>
+                    </div>
                 </div>
             `;
             booksGrid.appendChild(card);

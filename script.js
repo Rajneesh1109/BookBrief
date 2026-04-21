@@ -214,6 +214,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 "The most dangerous people are those who appear perfect",
                 "Survival sometimes requires extraordinary courage"
             ]
+        },
+        {
+            id: 'woman-in-window',
+            title: "The Woman in the Window",
+            author: "A.J. Finn",
+            genre: "Psychological Thriller / Suspense",
+            pages: 448,
+            rating: 4.1,
+            coverUrl: "woman-in-window.jpg",
+            coverColor: "linear-gradient(135deg, #1e293b, #334155)",
+            summary: `
+                <p>The Woman in the Window is a masterpiece of psychological suspense, a #1 New York Times Bestseller that sold millions of copies worldwide and was adapted into a Netflix film starring Amy Adams. It is the kind of book that grabs you from the very first page and does not let go until the shocking final revelation.</p>
+                <p>The story centers on Dr. Anna Fox, a child psychologist in her late thirties who lives alone in a beautiful but suffocating four-story townhouse in Harlem, New York City. Anna has not stepped outside her front door in ten months. She suffers from agoraphobia — a crippling anxiety disorder triggered by a traumatic event in her past that she cannot bring herself to fully confront. Every time she tries to open the front door, panic seizes her completely. Her world has shrunk to the four walls of her home.</p>
+                <p>To fill the endless, lonely hours, Anna has developed a set of routines. She drinks far too much red wine — a habit that has spiraled far beyond her control. She watches classic black-and-white films obsessively — Hitchcock, noir thrillers, old Hollywood mysteries. She plays chess online with strangers she will never meet. She attends virtual therapy sessions with her psychiatrist. And most significantly of all — she watches her neighbors through the windows of her home, using a long-lens camera to observe the lives being lived just across the street.</p>
+                <p>Anna knows almost everything about the people in her neighborhood. She has watched them for months — their arguments, their routines, their private moments. It is voyeuristic and she knows it, but it is the only connection she has left to the outside world. Then the Russell family moves into the house directly across the street — Alistair, a tall and imposing father; his wife Jane, warm and vivacious; and their teenage son Ethan, quiet and clearly troubled.</p>
+                <p>Ethan visits Anna one afternoon, and they form an unlikely friendship over old films and conversation. Shortly after, Jane Russell herself comes to visit — a vibrant, generous woman who shares wine with Anna and makes her feel, for the first time in months, like a real person again. Anna is charmed by her completely.</p>
+                <p>Then comes the night that changes everything.</p>
+                <p>While watching through her camera lens from her darkened living room, Anna witnesses what she believes is a violent assault in the Russell house. A woman — screaming. A flash of something bright. Blood. Anna calls the police in a panic. The officers arrive quickly and investigate the Russell house. But when they return, they bring a woman with them who claims to be Jane Russell — and she is completely different from the Jane that Anna met. This woman is cold, composed, and insists she has never met Anna in her life.</p>
+                <p>The police are skeptical of Anna immediately. She has been drinking. She is on multiple medications. She has not left her home in nearly a year. Her ex-husband Ed, who calls regularly and has custody of their young daughter Olivia, is concerned about her mental state. Her tenant David, who rents the basement apartment, tries to comfort her but keeps his own secrets. Even Anna herself begins to wonder — did she imagine it all? Is her mind playing tricks on her? Are the wine and the pills causing hallucinations?</p>
+                <p>But Anna cannot let it go. Something inside her insists that what she saw was real. She begins investigating obsessively — digging into the Russell family's background online, replaying the photographs she took that night, reaching out to Ethan secretly. And the more she digs, the more she realizes that the Russell family is hiding something deeply sinister behind their perfect suburban facade.</p>
+                <p>The story peels back layer after layer of deception. Anna's own past begins to surface in fragments — the traumatic car accident that triggered her agoraphobia, the truth about her estrangement from Ed and Olivia, the real reason she stopped working. These revelations reframe everything the reader thought they understood about Anna and make her an even more complex and heartbreaking character.</p>
+                <p>As the tension builds to an unbearable level, Anna finds herself in genuine danger inside her own home — the one place she believed she was safe. The climax is violent, terrifying, and completely unexpected. The final twist recontextualizes the entire novel and will leave readers sitting in stunned silence before rushing back to reread the opening chapters with new eyes.</p>
+                <p>The Woman in the Window has been praised by Stephen King as "unputdownable" and by Gillian Flynn as "astounding." It draws heavily from Hitchcock's classic film Rear Window but builds something entirely original and deeply human on top of that foundation — a story not just about a crime, but about grief, guilt, isolation, and the desperate human need for connection.</p>
+            `,
+            keyLessons: [
+                "Isolation can slowly destroy a person's grip on reality",
+                "Grief and trauma manifest in ways we do not always recognize",
+                "Always trust your instincts, even when the whole world doubts you",
+                "The most dangerous secrets are those hidden in perfectly ordinary homes",
+                "Healing requires confronting the truth, no matter how painful",
+                "Addiction is never just a habit — it is always a symptom of something deeper",
+                "The people we watch from a distance are never who we think they are"
+            ]
         }
         // More books can simply be added as objects here later!
     ];

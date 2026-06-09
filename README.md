@@ -35,5 +35,4 @@ BookBrief is a curated book summary web app where you can find detailed summarie
 ## 👨‍💻 Developer
 Rajneesh Chaubey
 
-## 🙏 Credits
-Book summaries crafted with the help of Shreyali Dwivedi
+

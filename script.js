@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Strip HTML tags for clean reading
                 const tempDiv = document.createElement('div');
                 tempDiv.innerHTML = book.summary;
-                const textToRead = \`Summary of \${book.title} by \${book.author}. \${tempDiv.textContent || tempDiv.innerText}\`;
+                const textToRead = `Summary of ${book.title} by ${book.author}. ${tempDiv.textContent || tempDiv.innerText}`;
                 
                 const utterance = new SpeechSynthesisUtterance(textToRead);
                 utterance.rate = 0.95;
@@ -439,8 +439,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (navigator.share) {
                 try {
                     await navigator.share({
-                        title: \`BookBrief: \${book.title}\`,
-                        text: \`Check out this amazing summary of "\${book.title}" by \${book.author} on BookBrief!\`,
+                        title: `BookBrief: ${book.title}`,
+                        text: `Check out this amazing summary of "${book.title}" by ${book.author} on BookBrief!`,
                         url: window.location.href
                     });
                 } catch (err) {

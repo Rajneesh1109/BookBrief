@@ -371,6 +371,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span class="close-modal">&times;</span>
                 <h2 class="modal-title">${book.title}</h2>
                 <p class="modal-author">by ${book.author}</p>
+                <div class="modal-actions" style="margin-top: 20px; display: flex; gap: 12px; justify-content: center; position: relative; z-index: 5;">
+                    <button class="modal-action-btn play-audio-btn"><i class="fa-solid fa-volume-high"></i> Play Audio</button>
+                    <button class="modal-action-btn share-btn"><i class="fa-solid fa-share-nodes"></i> Share</button>
+                </div>
             </div>
             
             <div class="modal-body-content">
@@ -392,9 +396,59 @@ document.addEventListener('DOMContentLoaded', () => {
 
         bookModal.classList.remove('hidden');
 
-        // Close modal button logic
-        modalBody.querySelector('.close-modal').addEventListener('click', () => {
+        // Close modal logic
+        const closeModal = () => {
             bookModal.classList.add('hidden');
+            window.speechSynthesis.cancel(); // Stop audio if playing
+        };
+
+        modalBody.querySelector('.close-modal').addEventListener('click', closeModal);
+
+        // Audio Summary Logic
+        const playBtn = modalBody.querySelector('.play-audio-btn');
+        let isPlaying = false;
+        
+        playBtn.addEventListener('click', () => {
+            if (isPlaying) {
+                window.speechSynthesis.cancel();
+                playBtn.innerHTML = '<i class="fa-solid fa-volume-high"></i> Play Audio';
+                isPlaying = false;
+            } else {
+                // Strip HTML tags for clean reading
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = book.summary;
+                const textToRead = \`Summary of \${book.title} by \${book.author}. \${tempDiv.textContent || tempDiv.innerText}\`;
+                
+                const utterance = new SpeechSynthesisUtterance(textToRead);
+                utterance.rate = 0.95;
+                
+                utterance.onend = () => {
+                    playBtn.innerHTML = '<i class="fa-solid fa-volume-high"></i> Play Audio';
+                    isPlaying = false;
+                };
+
+                window.speechSynthesis.speak(utterance);
+                playBtn.innerHTML = '<i class="fa-solid fa-stop"></i> Stop Audio';
+                isPlaying = true;
+            }
+        });
+
+        // Share Logic
+        const shareBtn = modalBody.querySelector('.share-btn');
+        shareBtn.addEventListener('click', async () => {
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: \`BookBrief: \${book.title}\`,
+                        text: \`Check out this amazing summary of "\${book.title}" by \${book.author} on BookBrief!\`,
+                        url: window.location.href
+                    });
+                } catch (err) {
+                    console.log('Error sharing:', err);
+                }
+            } else {
+                alert("Web Share API is not supported in your browser.");
+            }
         });
     }
 
@@ -402,6 +456,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('click', (e) => {
         if (e.target === bookModal) {
             bookModal.classList.add('hidden');
+            window.speechSynthesis.cancel();
         }
     });
 

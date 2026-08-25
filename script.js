@@ -417,7 +417,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Strip HTML tags for clean reading
                 const tempDiv = document.createElement('div');
                 tempDiv.innerHTML = book.summary;
-                const textToRead = `Summary of ${book.title} by ${book.author}. ${tempDiv.textContent || tempDiv.innerText}`;
+                
+                let textToRead = `Summary of ${book.title} by ${book.author}. ${tempDiv.textContent || tempDiv.innerText}.`;
+                
+                if (book.keyLessons && book.keyLessons.length > 0) {
+                    textToRead += ` The key lessons from this book are: ${book.keyLessons.join('. ')}.`;
+                }
                 
                 const utterance = new SpeechSynthesisUtterance(textToRead);
                 utterance.rate = 0.95;
